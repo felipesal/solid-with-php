@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7133897c-638a-49cb-8a57-2324888f0375" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/aula1-projeto-inicial/src/Model/Curso.php" beforeDir="false" afterPath="$PROJECT_DIR$/aula1-projeto-inicial/src/Model/Curso.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -54,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626579240597</updated>
-      <workItem from="1626579241733" duration="358000" />
+      <workItem from="1626579241733" duration="660000" />
     </task>
     <servers />
   </component>
