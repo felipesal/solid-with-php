@@ -12,3 +12,8 @@ a classe que implementá-lo com a responsabilidade de prover um método de cálc
 
 Commit "Corrigindo url" : Devemos respeitar as definições impostas pelas classes pai.
 No caso da aplicação, deveríamos receber uma url na classe AluraMais, porém não iríamos recebê-la. Ou seja, viola o princípio da Substituição de Liskov.
+
+Commit "Assistindo com simplicidade" : Devemos ficar atentos ao princípio de Inversão de Dependência, que nos diz que
+classes concretas devem depender de abstrações e não o contrário.
+No nosso caso tínhamos a classe Assistidor implementando duas maneiras diferentes para assistir. Bastava organizar
+a responsabilidade, jogando para a classe a ser implementada o deve de assistir ao conteudo.
