@@ -9,3 +9,6 @@ uma entidade dedve ser aberto para expansão, porém fechadas para modificaçõe
 Ou seja, no nosso caso, a classe CalculadorPontuacao iria crescer infinitamente, 
 aumentando o número de ifs, a solução foi implementar a interface pontuável, onde teremos
 a classe que implementá-lo com a responsabilidade de prover um método de cálculo da pontuação.
+
+Commit "Corrigindo url" : Devemos respeitar as definições impostas pelas classes pai.
+No caso da aplicação, deveríamos receber uma url na classe AluraMais, porém não iríamos recebê-la. Ou seja, viola o princípio da Substituição de Liskov.
