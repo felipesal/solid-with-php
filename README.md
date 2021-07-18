@@ -17,3 +17,7 @@ Commit "Assistindo com simplicidade" : Devemos ficar atentos ao princípio de In
 classes concretas devem depender de abstrações e não o contrário.
 No nosso caso tínhamos a classe Assistidor implementando duas maneiras diferentes para assistir. Bastava organizar
 a responsabilidade, jogando para a classe a ser implementada o deve de assistir ao conteudo.
+
+Commit "Separando as interfaces" : Uma interface não deve assumir responsabilidades que não é dela.
+No nosso caso, a interface Pontuável não é obrigada a implementar o método assistir, pois pode haver situações que pontuem mas não sejam para assistir.
+Por exemplo uma dúvida.
